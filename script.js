@@ -5,7 +5,7 @@ const VoiceRSS={speech:function(e){this._validate(e),this._request(e)},_validate
 
 VoiceRSS.speech({
   key: '87db78e5bda0410287866b879f3bf413',
-  src: 'Cariño, vamos al puto metcadona',
+  src: 'Sí, sí... lo que tú digas',
   hl: 'es-es',
   v: 'Camila',
   r: 0, 
