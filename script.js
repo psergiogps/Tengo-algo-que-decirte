@@ -5,7 +5,7 @@ const VoiceRSS={speech:function(e){this._validate(e),this._request(e)},_validate
 
 VoiceRSS.speech({
   key: '87db78e5bda0410287866b879f3bf413',
-  src: 'Kiko, cabrón, cómeme el rabo',
+  src: 'Algo',
   hl: 'es-es',
   v: 'Camila',
   r: 0, 
