@@ -1,7 +1,10 @@
 /* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Padyakke+Expanded+One&display=swap');
+
 html {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -20,8 +23,25 @@ body {
   background-size: 550px;
   background-position: top;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: 100px;
+  line-height: .9;
+}
+
+
+input[type="text"] {
+  height: 40px;
+  border-radius: 8px;
+  width:80%;
+  max-width: 400px;
+  margin-bottom: 50px;
+  font-size: 20px;;
+}
 audio {
   width:250px;
 }
