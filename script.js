@@ -5,12 +5,13 @@ const audioElement = document.getElementById('audioElement');
 const texto = document.getElementById('text');
 let textoUsuario = '';
 const titulo = document.querySelector('h1');
-
+const overlay = 'style=background-color:#0a164633'
 
 texto.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     textoUsuario = texto.value;
     titulo.textContent = textoUsuario; 
+    titulo.classList.add('overlay');
   }
 
   VoiceRSS.speech({
